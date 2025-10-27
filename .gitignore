@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data files
+data/processed/app_reviews_combined.csv
+data/processed/*.parquet
+
+# IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
