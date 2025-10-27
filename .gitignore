@@ -9,8 +9,11 @@ __pycache__/
 *.so
 
 # Data files
-data/processed/app_reviews_combined.csv
-data/processed/*.parquet
+data/processed/
+data/reviews_summary/
+python/data/
+*.pkl
+*.csv
 
 # IDE
 .DS_Store
